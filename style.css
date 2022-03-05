@@ -1,12 +1,138 @@
-body{background-color:lightslategray;}
-h1{text-align: center;font-family: Arial, Helvetica, sans-serif; color: indianred; }
-p{font-family: Verdana, Geneva, Tahoma, sans-serif; color: white; font-size: 20px}
-.plus {color: darkred; background-color: blue; font-size: 15px;}
-#licna {color: green; background-color: yellow; font-size: 25px;}
-.mitko {width: 100px; height: 100px; background-color: blue; text-align: center; 
-        padding: 20px 30px 40px 50px;
-        border: 30px 60px 50px 75px;; border-style: outset; border-radius: 30%; border-color: black; display: inline-block}
-.minka {width: 100px; height: 100px; background-color: red; text-align: center; 
-            padding: 20px 30px 40px 50px;
-            border: 30px 60px 50px 75px; border-style: outset; border-radius: 30%; border-color: black; display: inline-block;}
-            
+*{
+  margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+
+
+.kartica {
+   display: inline-block;
+  font-size: large;
+  border: 2px solid gray;
+  border-radius: 6px;
+  height: 400px;
+  width: 300px;
+  padding: 20px;
+  margin: -100px 20px 20px 20px;
+
+}
+
+
+h5 { font-size: small;
+  margin-bottom: 5px;
+}
+
+h1 {margin-bottom: 15px;}
+
+.dugme{  
+  padding: 5px 5px 5px 5px;
+  margin-top: 16px;
+  background-color: lightgray;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
+  .text1 { margin: 10px 10px 0px 0px;
+     padding: 10px 10px 0px 0px;
+  }   
+  
+  .text1a{
+     padding: 10px 10px 0px 0px;
+    margin-top: 10px 10px 0px 0px;
+    color: gray;
+    font-size: small;}
+
+.popular { text-align: right;
+  margin-top: -1px;
+  margin-left: 230px;
+  font-size: x-small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+background-color: blueviolet;
+border: 7px solid blueviolet;
+margin-right: -1px;
+}
+
+#pro {margin-right: 0px;
+  font-size: 40px;
+
+  display: inline-block;
+}
+
+#pro1 {color: gray;
+  padding-left: 0px;
+  display: inline-block;
+}
+
+.kartica2 {
+  display: inline-block;
+ font-size: large;
+ border: 2px solid blueviolet;
+ border-radius: 6px;
+ height: 400px;
+ width: 300px;
+ margin: 20px;
+  }
+
+ .naslov2 { 
+   padding: 10px;
+  margin: 10px;
+ }
+
+.dugme2{
+  background-color: blueviolet;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 5px 5px 5px 5px;
+    margin-top: -1px;
+    margin-right: 20px;
+    }
+
+    .text2 {
+      margin: 10px 10px 10px 10px;
+      padding: 10px 10px 10px 10px;
+    }
+
+    .text2a{
+      padding: 10px 10px 0px 0px;
+  margin: 0px 0px 20px 20px;
+    color: gray;
+    font-size: small;
+    }
+
+
+    .kartica3 {
+      display: inline-block;
+     font-size: large;
+     border: 2px solid gray;
+     border-radius: 6px;
+     height: 400px;
+     width: 300px;
+     padding: 20px;
+     margin: 10px;
+    }
+  
+.text3 { 
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+
+}
+
+    
+  .kartica4 {
+      display: inline-block;
+     font-size: large;
+     border: 2px solid gray;
+     border-radius: 6px;
+     height: 400px;
+     width: 300px;
+     padding: 20px;
+     margin: 20px;
+    }
+
+    .text4 { 
+      margin: 10px 10px 10px 10px;
+      padding: 10px 10px 10px 10px;
+    }
+  
